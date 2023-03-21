@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        LP\Calculator\CalculatorServiceProvider::class,
         /*
          * Application Service Providers...
          */
