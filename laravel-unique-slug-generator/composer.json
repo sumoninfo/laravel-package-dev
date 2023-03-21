@@ -1,0 +1,28 @@
+{
+    "name": "sumoninfo/laravel-unique-slug",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sumoninfo\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ekramul Islam Sumon",
+            "email": "38817030+sumoninfo@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sumoninfo\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Sumoninfo\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}

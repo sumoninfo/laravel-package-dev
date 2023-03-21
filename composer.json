@@ -18,14 +18,21 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "^9.5.10",
+        "sumoninfo/laravel-unique-slug": "*"
     },
+    "repositories": [{
+        "type": "path",
+        "url": "./laravel-unique-slug-generator"
+    }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "LP\\Calculator\\": "packages/LP/calculator/src"
+            "LP\\Calculator\\": "packages/LP/calculator/src/",
+            "Sumoninfo\\LaravelUniqueSlug\\": "laravel-unique-slug-generator/src/"
         }
     },
     "autoload-dev": {

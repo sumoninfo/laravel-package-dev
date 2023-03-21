@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Sumoninfo\LaravelUniqueSlug\Facades\UniqueSlug;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+   return $slug = UniqueSlug::generator(App\Models\User::class, 'sumon', 'email');
     return view('welcome');
 });

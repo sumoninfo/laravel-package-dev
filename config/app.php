@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         LP\Calculator\CalculatorServiceProvider::class,
+        Sumoninfo\LaravelUniqueSlug\UniqueSlugServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -229,6 +230,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'UniqueSlug' => Sumoninfo\LaravelUniqueSlug\Facades\UniqueSlug::class,
 
     ],
 
