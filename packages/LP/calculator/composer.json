@@ -1,0 +1,11 @@
+{
+    "name": "lp/calculator",
+    "description": "demo calculator",
+    "authors": [
+        {
+            "name": "Ekramul Islam Sumon",
+            "email": "38817030+sumoninfo@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
