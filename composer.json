@@ -32,13 +32,17 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "LP\\Calculator\\": "packages/LP/calculator/src/",
+            "SumonInfo\\Installer\\": "packages/installer/src/",
             "Sumoninfo\\LaravelUniqueSlug\\": "laravel-unique-slug-generator/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "./packages/installer/src/functions.php"
+        ]
     },
     "scripts": {
         "post-autoload-dump": [

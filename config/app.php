@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         LP\Calculator\CalculatorServiceProvider::class,
+        SumonInfo\Installer\Providers\InstallerServiceProvider::class,
         Sumoninfo\LaravelUniqueSlug\UniqueSlugServiceProvider::class,
         /*
          * Application Service Providers...

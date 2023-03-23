@@ -15,6 +15,6 @@ use Sumoninfo\LaravelUniqueSlug\Facades\UniqueSlug;
 */
 
 Route::get('/', function () {
-   return $slug = UniqueSlug::generator(App\Models\User::class, 'sumon', 'email');
+//   return $slug = UniqueSlug::generator(App\Models\User::class, 'sumon', 'email');
     return view('welcome');
 });

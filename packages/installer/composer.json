@@ -1,0 +1,19 @@
+{
+    "name": "sumoninfo/installer",
+    "authors": [
+        {
+            "name": "Ekramul Islam Sumon",
+            "email": "38817030+sumoninfo@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SumonInfo\\Installer\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
